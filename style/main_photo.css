@@ -1,0 +1,104 @@
+@charset "utf-8";
+/* CSS Document */
+
+.photo_page {
+	background-image: url(../images/bg-checker.png);
+	background-repeat: repeat;
+	margin: 0px;
+	padding-left: 6%;
+	padding-top: 2%;
+	padding-right: 6%;
+	font-family: "微軟正黑體";
+	height: 1200px;
+}
+#dir {
+	height: 500px;
+}
+
+.photo_tit {
+	font-family: "微軟正黑體";
+	font-size: 25px;
+	font-weight: bold;
+	color: #EBEBEB;
+	margin-bottom: 10px;
+}
+.photo_hr {
+	background-color: #6A6A6A;
+	height: 6px;
+	margin-top: 20px;
+}
+.photo_h1 {
+	color: #A6A6FF;
+	font-family: "微軟正黑體";
+	font-size: 20px;
+	font-weight: bolder;
+	margin-top: 35px;
+	padding-left: 20px;
+	margin-bottom: 15px;
+}
+.photo_img {
+	float: left;
+	box-shadow: 1px 1px 1px 1px rgba(5%,5%,5%,0.9);
+	-moz-border-radius: 3px; /* Firefox */
+	-webkit-border-radius: 3px;
+	-khtml-border-radius: 3px; /* Konqueror */
+	border-radius: 3px;
+	background-color: #464646;
+	margin: 10px;
+	border-top-width: 8px;
+	border-right-width: 8px;
+	border-bottom-width: 4px;
+	border-left-width: 8px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #464646;
+	border-right-color: #464646;
+	border-bottom-color: #464646;
+	border-left-color: #464646;
+	color: #FFF;
+}
+
+.photo_img:hover {
+	border-top-color: #9595FF;
+	border-right-color: #9595FF;
+	border-bottom-color: #9595FF;
+	border-left-color: #9595FF;
+	background-color: #9595FF;
+	border-top-width: 8px;
+	border-right-width: 8px;
+	border-bottom-width: 4px;
+	border-left-width: 8px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	color: #CDCDCD;
+	cursor: pointer;
+}
+
+
+
+
+
+
+.photo_hint {
+	font-size: 18px;
+	color: #FFF;
+}
+a:link {
+	font-weight: normal;
+}
+.pgg {
+	color: #FFF;
+}
+.btn_boback {
+	font-size: 18px;
+	color: #FFF;
+	margin-right: 20px;
+}
+.btn_boback:hover {
+	background-color: #484848;
+	cursor: pointer;
+}

@@ -1,0 +1,75 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>留言外觀</title>
+<link href="style/main.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+
+
+<div class="msg_all">
+<div class="msg_box">
+
+<div class="msg_tit"><span class="msg_tit">Zap: </span><span class="msg_tit">你好留言~~~~</span></div>
+<div class="msg_tit"><span class="msg_tit2">MCon</span></div>
+
+<div class=" msg_menu"><span>時間</span>刪除</div> 
+
+
+</div>
+
+<div class="msg_re_all">
+
+<div class="ajax_status">
+
+<div class="msg_show_all_reply">
+<div class="msg_show_all">顯示所有回覆</div>
+ <div class="msg_re_count"><img src="image/chat.fw.png" width="20" height="20"> 20</div>
+ </div>
+ 
+ 
+<div class="msg_show_waiting"></div>
+<div class="msg_show_error">發生錯誤，請重試!</div>
+</div>
+<!--
+<div class="msg_re_box"> 
+
+ 縣市回復
+<div class="msg_tit"><span>Zap: </span><span class="msg_tit2">fffssssssssss</span> </div> 
+<div class=" msg_menu"><span>時間</span> 刪除</div> 
+
+</div>
+-->
+
+
+<div class="ajax_reply">
+
+<div class="msg_re_box">dd </div>
+<div class="msg_re_box"> d</div>
+<div class="msg_re_box">d </div>
+<div class="msg_re_box">d </div>
+
+</div>
+
+
+
+
+<div class="msg_reply_from">
+<form action="re_msg.php" method="post" onSubmit="" >
+<input type="hidden" name="msg_id" value="$row[4]" />
+<input name="re_con" type="text" maxlength="150" onkeydown="testForEnter();" style="height:14px; width:350px" id="re"/> 
+<input type="submit" name="re_btn" value="回覆" class="btn_nor">
+</form>
+</div>
+
+</div>
+</div>
+
+
+
+
+</body>
+</html>
