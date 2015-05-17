@@ -1,4 +1,4 @@
-http://zaplin.byethost24.com/musiclife/musiclife
+# musiclife
 =========
 
 ## 描述
@@ -8,4 +8,4 @@ http://zaplin.byethost24.com/musiclife/musiclife
 
 ##Demo
  
-http://zap.comze.com/musiclife/index.html
+### http://zaplin.byethost24.com/musiclife/musiclife
