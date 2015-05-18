@@ -6,4 +6,4 @@
 關閉後台只留下前端部分，以供展示
 
 ##Demo
-http://zaplin.byethost24.com/musiclife/musiclife
+http://zaplin.byethost24.com/musiclife/
